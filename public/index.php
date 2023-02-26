@@ -14,9 +14,9 @@ $employee1->surname = 'green';
 $employee1->save();
 
 // create the second employee
-$employee1 = new Employee();
-$employee1->surname = 'red';
-$employee1->save();
+$employee2 = new Employee();
+$employee2->surname = 'red';
+$employee2->save();
 
 /**
  * MariaDB [test]> select * from TblEmployees;
@@ -34,14 +34,14 @@ $machine1->title = 'foo';
 $machine1->save();
 
 // create the second machine
-$machine1 = new Machine();
-$machine1->title = 'bar';
-$machine1->save();
+$machine2 = new Machine();
+$machine2->title = 'bar';
+$machine2->save();
 
 // create the third machine
-$machine1 = new Machine();
-$machine1->title = 'truck';
-$machine1->save();
+$machine3 = new Machine();
+$machine3->title = 'truck';
+$machine3->save();
 
 /**
  * MariaDB [test]> select * from TblMachines;
